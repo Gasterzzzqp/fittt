@@ -8,7 +8,7 @@ class Ui_MainWindow(object):
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.xz = QtWidgets.QDial(self.centralwidget)
-        self.xz.setGeometry(QtCore.QRect(240, 200, 50, 64))
+        self.xz.setGeometry(QtCore.QRect(240, 20, 50, 64))
         self.xz.setObjectName("xz")
         self.progressBar = QtWidgets.QProgressBar(self.centralwidget)
         self.progressBar.setGeometry(QtCore.QRect(180, 120, 341, 61))
